@@ -17,7 +17,7 @@ namespace analyses {
 		Array() = default;
 
 		explicit Array(T* arrptr, sur::Vec2 size)
-			: arr(arrptr), size(size.x* size.y), sizeSep(size) {}
+			: arr(arrptr), size(size.x * size.y), sizeSep(size) {}
 
 		T* GetPtr() {
 			return arr;
